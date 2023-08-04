@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="owl_playground.playground" owl="1">
+        <div class="p-3">
+            Hello World
+        </div>
+        
+        <Navbar>
+          <t t-set-slot="home">Test</t>
+        </Navbar>
+
+
+        <Counter/>
+
+        
+        <Card>
+            <t t-set-slot="title">My card</t>
+            Hello card
+        </Card>
+
+
+        <Todo_List/>
+    </t>
+</templates>
