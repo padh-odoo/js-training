@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="owl_game.rock" owl="1">
+        <div>
+            <h1> <p>user: <t t-esc="stateuser.value"/></p></h1>
+            <h1> <p>bot: <t t-esc="statebot.value"/></p></h1>
+            <button class="btn btn-primary mx-2" t-on-click="Rock">Rock</button>
+            <button class="btn btn-primary mx-2" t-on-click="Paper">Paper</button>
+            <button class="btn btn-primary mx-2" t-on-click="Scissor">Scissor</button>
+        </div>
+    </t>
+</templates>
